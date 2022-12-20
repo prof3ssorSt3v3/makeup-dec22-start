@@ -1,7 +1,7 @@
-import { NetworkError } from './utils.js';
+//import the NetworkError class
 
 const APP = {
-  storageKey: 'imageAndImage',
+  storageKey: 'imageAndImage', //set your own localStorage key
   init: () => {
     //page loaded
     //add change listener for the select in nav
