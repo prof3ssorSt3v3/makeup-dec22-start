@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- needs CSP meta tag -->
+    <!-- needs Google Font import for two fonts (header and body) -->
+    <!-- needs your CSS -->
+    <!-- needs your main JS module -->
+    <title>Image Interface</title>
+  </head>
+  <body>
+    <header>
+      <h1>Images &amp; Images</h1>
+    </header>
+    <nav>
+      <form>
+        <label for="sizes">Pick a Size to Load Images</label>
+        <select id="sizes" name="sizes">
+          <option value="">Pick a size</option>
+          <!-- these are the sizes for the images in the grid -->
+          <option value="300">300 x 300</option>
+          <option value="400">400 x 400</option>
+          <option value="500">500 x 500</option>
+          <option value="600">600 x 600</option>
+        </select>
+      </form>
+    </nav>
+    <main>
+      <!-- image grid gets loaded here -->
+    </main>
+    <!-- the overlay is hidden by default shown by adding a class -->
+    <div class="overlay">
+      <form>
+        <label for="choices">Header Selection</label>
+        <select id="choices" name="choices">
+          <option value="">Pick an Image Type</option>
+          <!-- the values below are ids of specific images you can change them if you want -->
+          <option value="870">Lighthouse</option>
+          <option value="1084">Walrus</option>
+          <option value="237">Puppy</option>
+          <option value="2">Laptop</option>
+        </select>
+      </form>
+    </div>
+  </body>
+</html>

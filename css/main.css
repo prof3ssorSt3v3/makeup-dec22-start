@@ -1,0 +1,56 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 20px;
+  /* add font stack */
+}
+header {
+  height: 10rem;
+  background-color: #333;
+}
+header h1 {
+}
+nav {
+}
+form {
+}
+label {
+}
+select {
+}
+.overlay {
+  width: 100vw;
+  height: 100vh;
+  background-color: hsla(0, 0%, 0%, 0.64);
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.overlay.active {
+  /* when the overlay is visible */
+}
+.overlay form {
+  /* the form to select the header background */
+}
+main {
+  /* holds the grid of image cards */
+}
+main p {
+  /* each of the cards holding an image and name */
+}
+main p span {
+  /* name label inside paragraphs */
+}
+main p:hover span {
+  /* hover effect on card */
+}
+main h2.err {
+  /* error message styles */
+}
+main h3.err {
+  /* error message styles */
+}
